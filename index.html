@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html class="has-background-light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autovot 9000</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container has-text-centered">
+            <h1 class="title is-1">AUTOVOT 9000</h1>
+            <div class="box">
+                <div class="field">
+                    <label class="label">corrette</label>
+                    <input class="input is-primary" id="correct" type="number">
+                </div>
+                <div class="field">
+                    <label class="label">sbagliate</label>
+                    <input class="input is-danger" id="wrong" name="wrong" type="number">
+                </div>
+            </div>
+            <div class="box">
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <div class="title">Punti</div>
+                        <p class="subtitle" id="total"></p>
+                    </div>
+                    <div class="column">
+                        <div class="title">Voto</div>
+                        <p class="subtitle" id="voto"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
